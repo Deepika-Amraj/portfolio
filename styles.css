@@ -1,0 +1,65 @@
+h1, h2 {
+    color: skyblue;
+}
+
+body {
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #5fbab7;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background: skyblue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: deepskyblue;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: skyblue;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.linkedin-btn {
+    display: inline-block;
+    background-color: white;
+    color: skyblue;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.linkedin-btn:hover {
+    background-color: lightgray;
+}
